@@ -10,6 +10,7 @@
     "test:recommendation": "node scripts/testRecommendationAlgorithm.js",
     "test:assessment": "node scripts/testSkillAssessmentAlgorithm.js",
     "test:scalability": "node scripts/testRecommendationScalability.js",
+    "test:rejection": "node scripts/testRejectionAndLearningSystem.js",
     "test:algorithms:save": "node scripts/runAllAlgorithmTests.js > backend/scripts/test-results.json",
     "paper:separate-tables": "node bscripts/testRecommendationScalability_SeparateTables.js",
     "paper:tables": "node scripts/extractTableData.js backend/scripts/test-results.json",

@@ -14,7 +14,8 @@
     "test:algorithms:save": "node scripts/runAllAlgorithmTests.js > backend/scripts/test-results.json",
     "paper:separate-tables": "node bscripts/testRecommendationScalability_SeparateTables.js",
     "paper:tables": "node scripts/extractTableData.js backend/scripts/test-results.json",
-    "paper:generate": "npm run test:algorithms:save && npm run paper:tables"
+    "paper:generate": "npm run test:algorithms:save && npm run paper:tables",
+    "check:db": "node scripts/checkDatabaseStats.js"
   },
   "keywords": [],
   "author": "",
